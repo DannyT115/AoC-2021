@@ -24,6 +24,7 @@ func main() {
 	defer input.Close()
 	
 	scanner := bufio.NewScanner(input)
+	
     for scanner.Scan() {
 		scanText := scanner.Text()
 		value, _ := strconv.Atoi(scanText)
