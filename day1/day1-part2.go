@@ -30,8 +30,12 @@ func main() {
 		inputLines = append(inputLines, value)
     }
 
-	for index := 0; index < len(inputLines)-1; index++ {
-		if inputLines[index] < inputLines[index+1] {
+	for index := 0; index < len(inputLines)-3; index++ {
+
+		firstWindow := inputLines[index] + inputLines[index+1] + inputLines[index+2]
+		secondWindow := inputLines[index+1] + inputLines[index+2] + inputLines[index+3]
+
+		if firstWindow < secondWindow {
 			increasedCounter++
 		}
 	}
