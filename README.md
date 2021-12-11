@@ -23,4 +23,4 @@ This repository will be filled with solutions for Advent of Code challenges usin
 should give me an understanding of the language itself, due to the more "Practical" way of learning.
 
 ## License
-[**The MIT License: Copyright (c) 2021 Daniel Taylor**](https://github.com/DannyT115/AoC-2021/blob/dev/LICENSE)
+[**The MIT License: Copyright (c) 2021 Daniel Taylor**](https://github.com/DannyT115/AoC-2021/blob/main/LICENSE)
